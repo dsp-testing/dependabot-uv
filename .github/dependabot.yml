@@ -9,8 +9,8 @@ updates:
   - package-ecosystem: "uv"
     directories:
       - "/"
-      - "requirements-nolock/"
-      - "pyproject-nolock/"
-      - "requirements-file/"
+      - "/requirements-nolock/"
+      - "/pyproject-nolock/"
+      - "/requirements-file/"
     schedule:
       interval: "weekly"
