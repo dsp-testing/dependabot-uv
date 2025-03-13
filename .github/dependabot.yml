@@ -14,4 +14,4 @@ updates:
       - "/requirements-file/"
     schedule:
       interval: "weekly"
-    open-pull-request-limit: 20
+    # open-pull-request-limit: 20
