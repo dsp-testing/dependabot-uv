@@ -4,7 +4,6 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
-enable-beta-ecosystems: true
 updates:
   - package-ecosystem: "uv"
     directories:
@@ -14,4 +13,3 @@ updates:
       - "/requirements-file/"
     schedule:
       interval: "weekly"
-    # open-pull-request-limit: 20
