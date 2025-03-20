@@ -110,7 +110,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "httpx", specifier = "==0.20" },
+    { name = "httpx", specifier = "==0.21.0" },
     { name = "requests", specifier = "==2.31.0" },
 ]
 
@@ -134,21 +134,22 @@ wheels = [
 
 [[package]]
 name = "httpcore"
-version = "0.13.7"
+version = "0.14.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
+    { name = "certifi" },
     { name = "h11" },
     { name = "sniffio" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6a/90/334411fe5455d30498add7d77a8bf4833bfc4671289a954fb2fd43795338/httpcore-0.13.7.tar.gz", hash = "sha256:036f960468759e633574d7c121afba48af6419615d36ab8ede979f1ad6276fa3", size = 45262 }
+sdist = { url = "https://files.pythonhosted.org/packages/f2/46/2c1e32574749d38404c9380d5c0de3f6fba44ceea119cf1536f138e72784/httpcore-0.14.7.tar.gz", hash = "sha256:7503ec1c0f559066e7e39bc4003fd2ce023d01cf51793e3c173b864eb456ead1", size = 53400 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/73/a1/e347135b0ebb4d4c29a4258cb6d2e03c2d0c4ea207bf9ce5d255d7887a56/httpcore-0.13.7-py3-none-any.whl", hash = "sha256:369aa481b014cf046f7067fddd67d00560f2f00426e79569d99cb11245134af0", size = 58757 },
+    { url = "https://files.pythonhosted.org/packages/e7/38/7b76d3d71c462dc936e333b358a3106e7af913e6c8c9dd5a45684fec08cc/httpcore-0.14.7-py3-none-any.whl", hash = "sha256:47d772f754359e56dd9d892d9593b6f9870a37aeb8ba51e9a88b09b3d68cfade", size = 68325 },
 ]
 
 [[package]]
 name = "httpx"
-version = "0.20.0"
+version = "0.21.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "certifi" },
@@ -157,9 +158,9 @@ dependencies = [
     { name = "rfc3986", extra = ["idna2008"] },
     { name = "sniffio" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/62/0d/9804c841eaf5e0f72890e54eff21bb49664289edf8cbe09bd47db513bd68/httpx-0.20.0.tar.gz", hash = "sha256:09606d630f070d07f9ff28104fbcea429ea0014c1e89ac90b4d8de8286c40e7b", size = 104549 }
+sdist = { url = "https://files.pythonhosted.org/packages/ba/a5/e6a09b863d61ef99dc5dc70ae3102f0e382195e69625bc428908b7c246b0/httpx-0.21.0.tar.gz", hash = "sha256:5ae1d9deb30fe074596551b3ab98f94dfd9d7efe3ecd2d08662a5c29f6fba0e4", size = 105075 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/58/05/148ebadb30f498754a738bab07fa88e39b6e401bcd86710f9b36b1cd737d/httpx-0.20.0-py3-none-any.whl", hash = "sha256:33af5aad9bdc82ef1fc89219c1e36f5693bf9cd0ebe330884df563445682c0f8", size = 82459 },
+    { url = "https://files.pythonhosted.org/packages/33/3c/aadca33005d23d2a2c162e83ebd4e3125b4f224738488e252212c481bdfa/httpx-0.21.0-py3-none-any.whl", hash = "sha256:3278982890a739d7bbe0f34cbc216fcde939bc1f54e1062db02deadae4f314d6", size = 83133 },
 ]
 
 [[package]]
